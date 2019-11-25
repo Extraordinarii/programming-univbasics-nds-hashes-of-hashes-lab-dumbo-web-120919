@@ -31,6 +31,14 @@
 # }
 
 def naming_system
+  def Kingdom
+    sub_category: {
+      label: "Phylum",
+      sub_category: {
+        label: "Class"
+      }
+      
+    }
   # Remember:
   #  Kingdom
   #  Phylum
