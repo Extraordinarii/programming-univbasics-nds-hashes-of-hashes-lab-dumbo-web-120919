@@ -31,7 +31,7 @@
 # }
 
 def naming_system
-  def Kingdom
+ { label: Kingdom
     sub_category: {
       label: "Phylum",
       sub_category: {
@@ -39,7 +39,7 @@ def naming_system
       }
       
     }
-
+}
   # Remember:
   #  Kingdom
   #  Phylum
